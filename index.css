@@ -1,0 +1,166 @@
+p{
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.landing_section{
+    
+}
+.landing_section_banner{
+    height: 100%;
+    width: 100%;
+}
+
+
+.landing_video{
+    background-image:url(./pics/blue.png);
+    width:100%;
+    height: 100%;
+   
+
+}
+.video_frame{
+    position: relative;
+    width:100%;
+    height: 100%;
+    /* height:; */
+    padding-bottom: 55%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.video_frame iframe{
+    position:absolute;
+    width:50%;
+    height:55%;
+    top:30%;
+    left:25%;
+    top: ;
+    left: ;
+}
+.video_frame h1{
+    position:absolute;
+    top:23%;
+    left:33%;
+    top: ;
+    left: ;
+}
+
+
+
+
+
+
+.section1{
+    width:100%;
+    height:1000px;
+    background-image:url(./pics/greenupbluedown.png);
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+}
+
+.img_border{
+   height: 70%;
+   overflow: hidden;
+}
+.section1_img{
+    top: 0px;
+    right: 0px;
+    height: 60%;
+    width: auto;
+    position: absolute;
+}
+.section1_text{
+    top:1px;
+    left: 1px;
+    position: absolute;
+
+}
+.section1_text ul li{
+    list-style-type: none;
+}
+
+.hot_list {
+    width: 1000px;
+    margin: 50px auto 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.item_img img {
+    width: 220px;
+    height: 182px;
+}
+
+.item_img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.content_item {
+    width: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content_item:hover {
+    color: red;
+}
+
+.hot_text {
+    font-size: 20px;
+    border-bottom: 2px solid red;
+}
+
+.hot_eng {
+    font-size: 14px;
+}
+
+.list_title {
+    width: 160px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item_text {
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(240, 238, 238);
+}
+
+.item_jibie {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.huo {
+    width: 16px;
+    height: 16px;
+}
+
+.item_number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mun_right .left {
+    font-size: 12px;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+
+.list_content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.split_line {
+    height: 100px;
+    background-color: rgb(251, 250, 250);
+}
